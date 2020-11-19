@@ -1,0 +1,179 @@
+.container {
+  // margin:20px 20px 0 20px;
+  background: #fff;
+  // padding:20px;
+}
+.color {
+  background: #333744;
+  padding-top: 20rpx;
+}
+.funds {
+  flex-direction: column;
+  margin: 0 auto;
+  display: flex;
+  color: #fff;
+}
+.column {
+  flex-direction: column;
+}
+.con-a {
+  font-size: 26rpx;
+  text-align: center;
+}
+.con-b {
+  font-size: 66rpx;
+  font-weight: bold;
+  text-align: center;
+  margin: 10rpx 0;
+}
+.con-c {
+  background: #3d414e;
+  padding: 7rpx;
+  font-size: 25rpx;
+  text-align: center;
+  width: 200rpx;
+  margin: 0 auto;
+}
+.perform {
+  justify-content: space-between;
+  margin-top: 40px;
+  font-size: 26px;
+  display: flex;
+}
+.perform-title > text:first-child {
+  color: #acacad;
+  font-size: 25rpx;
+}
+.perform-title > text:last-child {
+  color: #fff;
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-top: 15rpx;
+}
+.per-money {
+  background: #3d414e;
+  // width:100%;
+  padding: 20rpx 40rpx;
+  display: flex;
+}
+.perform-a {
+  flex-direction: column;
+  display: flex;
+}
+.per-b {
+  border-right: 1px solid #eee;
+  // padding-right:65rpx;
+  width: 236rpx;
+}
+.per-b text:nth-child(1) {
+  font-size: 36rpx;
+  color: #1bbc3d;
+  font-weight: bold;
+  margin-bottom: 10rpx;
+}
+.per-b > text:nth-child(2) {
+  color: #343c49;
+}
+.per-b text:nth-child(3) {
+  font-size: 23rpx;
+  color: #999;
+}
+.num {
+  color: #1bbc3d;
+  font-weight: bold;
+}
+.number {
+  font-size: 24rpx;
+}
+.perform-a > text {
+  text-align: center;
+}
+.cash {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 26rpx;
+  // background:#ddd;
+  background: -webkit-linear-gradient(left top, #f9ebbf, #eed49a, #f9ebbf, #eed49a); /* Safari 5.1 - 6.0 */
+  background: -o-linear-gradient(bottom right, #f9ebbf, #eed49a, #f9ebbf, #eed49a); /* Opera 11.1 - 12.0 */
+  background: -moz-linear-gradient(bottom right, #f9ebbf, #eed49a, #f9ebbf, #eed49a); /* Firefox 3.6 - 15 */
+  background: linear-gradient(to bottom right, #f9ebbf, #eed49a, #f9ebbf, #eed49a); /* 标准的语法 */
+}
+.cash > text:first-child {
+  color: #625325;
+}
+.cash > text:last-child {
+  color: #544740;
+}
+.eval {
+  margin-top: 30px;
+}
+.store-view {
+  text-align: center;
+  margin-top: 20rpx;
+}
+.store-view > text {
+  font-size: 34rpx;
+  font-weight: bold;
+  margin: 20rpx;
+}
+.store-view > image {
+  width: 30rpx;
+  height: 26rpx;
+  margin-top: 13rpx;
+}
+.overView {
+  // border-bottom:2px solid rgb(189, 187, 187);
+  padding-bottom: 20px;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-box {
+  display: flex;
+  //   width:120px;
+  // height:120px;
+  // border:2px solid #ddd;
+  font-size: 26px;
+  // background:#eee;
+  margin: 20px 10px;
+  width: 167rpx;
+  flex-direction: column;
+  position: relative;
+}
+.flex-box image {
+  width: 110rpx;
+  height: 110rpx;
+  margin: 0 auto;
+}
+.flex-box text {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 12px;
+}
+.flex-box .number {
+  // font-size: 22rpx !important;
+  width: 30rpx;
+  // height: 30rpx;
+  // color: #fff;
+  // background: red;
+  // border-radius: 62%;
+  // text-align: center;
+  // line-height: 30rpx;
+  position: absolute;
+  top: -10rpx;
+  right: 10rpx;
+}
+.six {
+  margin-top: 20rpx;
+}
+.padd {
+  padding: 20rpx;
+}
+.perform > .perform-a:nth-child(3) {
+  border-right: none;
+}
+.iconfont {
+  font-size: 50px;
+}

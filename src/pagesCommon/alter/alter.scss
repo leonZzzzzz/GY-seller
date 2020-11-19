@@ -1,0 +1,46 @@
+.content{
+  background:#fff;padding:0 30rpx;font-size:26rpx;
+}
+.the_list_label{
+  display:flex;
+  justify-content: space-between;
+  border-bottom:1px solid #eee;
+margin-left:20rpx;
+padding:20rpx 0;
+}
+.the_list_label>input{
+  background:#F8F8F8;
+width:435rpx;
+margin-right:20rpx;
+padding:5rpx 10rpx;
+}
+.the_list_label text{
+  line-height: 50rpx;
+}
+radio{
+  transform: scale(0.7)
+}
+.shop-t{
+  padding:20rpx 0;
+  border-bottom:1px solid #eee;
+  font-size:26rpx;
+}
+.shop-r{
+  margin-top:15rpx;
+background:#fff;
+border:none;
+padding:20rpx 30rpx;
+font-size:26rpx;
+}
+.borno{border:none;}
+.btn{
+  width:90%;
+  background:#1BBC3D;
+  color:#fff;
+  border-radius: 10rpx;
+  padding:20rpx;
+  margin:0 auto;
+  text-align: center;
+  margin-top:100rpx;
+  font-size:28rpx;
+}

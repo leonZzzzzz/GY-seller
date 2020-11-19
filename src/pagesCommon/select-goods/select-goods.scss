@@ -1,0 +1,126 @@
+
+.content{
+  background:#fff;
+  padding:20rpx;
+  display:flex;
+  flex-direction: column;
+  margin-bottom:15rpx;
+}
+.order-content{
+  display:flex;
+  border-bottom:1px solid #eee;
+  width:500px;
+  margin-left:20px;
+  flex-direction: row;
+}
+.con-list>view:last-child{
+  border:none;
+  padding-bottom:0
+}
+.order-img{
+  width:170px;
+  height:170px;
+}
+.order-detail{
+  width:500rpx;
+  margin-left:20rpx;
+}
+.order-detail>text{
+  text-overflow:ellipsis;
+display:-webkit-box;
+-webkit-box-orient:vertical;
+-webkit-line-clamp:2;
+overflow: hidden;
+  font-size:26px;
+}
+.content-order{
+  display:flex;
+justify-content:space-between;
+font-size:26rpx;
+border-bottom:1rpx solid #eee;
+padding-bottom:10rpx;
+}
+.content-order>text{
+  font-weight:bold;
+  line-height: 62rpx;
+}
+.content-time{
+  display:flex;
+  flex-direction: column;
+  text-align: right;
+}
+.content-time>text:first-child{
+  color:#FF671E;
+}
+.content-time>text:last-child{
+  color:#999;
+  font-size:22rpx;
+}
+.charge{
+  font-size:20rpx;
+  background:#1BBC3D;
+  color:#fff;
+  border-radius: 20rpx;
+  padding:0 10rpx;
+}
+.content-con{
+  display:flex;
+  margin:20rpx 0;
+  padding-bottom:20rpx;
+  border-bottom:1px solid #eee;
+}
+.order-name{
+  justify-content:space-between;font-size:26rpx;display:flex;
+  margin-top:60rpx;
+}
+
+.content-total{
+  font-size:24rpx;
+color:#999;
+text-align:right;
+border-bottom:1px solid #eee;
+padding-bottom:15rpx;
+}
+.content-total>text{
+  color:#222;
+}
+.order-price{
+  margin-top:10px;
+  font-size:22px;
+  color:#999;
+}
+.order-price text{
+  margin-right:20px;
+}
+.order-a{
+  border-right:1px solid #999;
+padding-right:16rpx;
+}
+// .order-price text:last-child{
+//   color:#0789ca;
+//   text-decoration: underline;
+// }
+.reper{
+  // margin-top:10px;
+  font-size:26px;
+}
+.reper text:first-child{
+  // margin-right:20px;
+  margin-top:7rpx;
+  color:#FF840B;
+}
+.repe-a{
+  color:#FF840B;
+  font-size:32rpx;
+  font-weight:bold;
+}
+.choose{
+  background:#1BBC3D;
+  color:#fff;
+  padding:10rpx 25rpx;
+  font-size:24rpx;
+  border-radius: 10rpx;
+}
+
+
+

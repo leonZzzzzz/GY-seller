@@ -1,0 +1,83 @@
+.set{
+  flex-direction: column;
+  display:flex;
+}
+.set-row{
+  justify-content:space-between;
+padding:25rpx;
+background:#fff;
+// border-bottom:1px solid #eee;
+font-size:28rpx;
+display:flex;
+margin-top:15rpx;
+}
+.set-money{
+  display:flex;
+flex-direction:column;
+text-align:right;
+}
+.set-part{
+  color:#999;
+  font-size:24rpx;
+}
+.phone{
+color:#FF671E;
+font-size:30rpx;
+font-weight:bold;
+line-height: 70rpx;
+}
+.wxpay{
+  margin-left:20rpx;
+}
+.btn{
+  margin:0 auto;
+  margin-top:100rpx;
+  text-align: center;
+}
+.btn>text{
+  color:#fff;
+// border:1rpx solid #1BBC3D;
+background:#1BBC3D;
+text-align:center;
+border-radius:10rpx;
+width:80%;
+padding:20rpx 235rpx;
+
+}
+image{
+  width:40rpx;height:40rpx;
+}
+.toptips{
+  padding: 20rpx 20rpx 0 20rpx;
+  font-size:28rpx;
+  color:#999;
+}
+.groupcheck{
+  width:100%;
+  // display:flex;
+  // justify-content: space-between;
+  // width:500rpx;
+  // margin:0 auto;
+  // text-align: center;
+  padding:0 20rpx;
+}
+.labelbor{
+  border-bottom:1px solid #eee;
+
+}
+.the_list_label{
+  padding:10rpx 0;
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  // border-bottom:1px solid #eee;
+// margin-left:20rpx;
+// padding:20rpx 0;
+}
+
+.the_list_label text{
+  line-height: 50rpx;
+}
+radio{
+  transform: scale(0.7)
+}

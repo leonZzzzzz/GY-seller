@@ -1,0 +1,58 @@
+.btn {
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  background: #1bbc3d;
+  text-align: center;
+  // border-radius:10rpx;
+  padding: 20rpx;
+}
+
+.setrow {
+  display: flex;
+  background: #fff;
+  padding: 20rpx;
+  border-bottom: 1px solid #eee;
+  justify-content: space-between;
+  font-size: 28px;
+}
+.image {
+  width: 25rpx;
+  height: 25rpx;
+  margin-left: 10rpx;
+  margin-top: 4px;
+}
+.setrow-a {
+  display: flex;
+}
+.revise {
+  font-size: 26px;
+  background: #1bbc3d;
+  color: #fff;
+  padding: 0 20px;
+  height: 55rpx;
+  line-height: 55rpx;
+  margin-top: 15px;
+}
+radio {
+  transform: scale(0.8);
+}
+.setcol {
+  font-size: 28rpx;
+  margin-left: 10rpx;
+  margin-top: 5rpx;
+}
+.setcol > text {
+  font-weight: bold;
+}
+.setcol > view {
+  color: #999;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+input {
+  width: 400px;
+  text-align: right;
+}

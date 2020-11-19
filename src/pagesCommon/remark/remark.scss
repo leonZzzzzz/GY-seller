@@ -1,0 +1,164 @@
+.set {
+  margin-top: 15rpx;
+  flex-direction: column;
+  // width:100%
+  padding: 0 20rpx;
+}
+.set-row {
+  justify-content: space-between;
+  padding: 25rpx;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  font-size: 28rpx;
+  position: relative;
+}
+textarea {
+  background: #fff;
+  width: 670rpx;
+  // padding-left:20rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+.btn {
+  margin: 0 auto;
+  margin-top: 100rpx;
+  text-align: center;
+}
+.btn > text {
+  color: #fff;
+  border: 1rpx solid #1bbc3d;
+  background: #1bbc3d;
+  text-align: center;
+  border-radius: 10rpx;
+  width: 600rpx;
+  padding: 20rpx 235rpx;
+}
+.version {
+  position: absolute;
+  bottom: 70px;
+  width: 100%;
+  text-align: center;
+}
+.version text {
+  font-size: 28px;
+  margin: 0 auto;
+}
+
+.weui-cell {
+  padding: 20px 30px;
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+}
+.weui-cell_input {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.weui-uploader__hd {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding-bottom: 20px;
+  align-items: center;
+}
+.weui-uploader__title {
+  flex: 1;
+}
+.weui-uploader__info {
+  color: #b2b2b2;
+}
+.weui-uploader__bd {
+  margin-bottom: -8px;
+  margin-right: -18px;
+  overflow: hidden;
+  margin-top: 10rpx;
+}
+.weui-uploader__file {
+  float: left;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  position: relative;
+}
+.weui-uploader__img {
+  display: block;
+  width: 148px;
+  height: 148px;
+  border-radius: 8px;
+}
+.weui-uploader__input-box {
+  float: left;
+  position: relative;
+  margin-right: 18px;
+  margin-bottom: 18px;
+  width: 148px;
+  height: 148px;
+  border-radius: 8px;
+  border: 2px solid #d9d9d9;
+}
+.weui-uploader__input-box:before,
+.weui-uploader__input-box:after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #d9d9d9;
+}
+.weui-uploader__input-box:before {
+  width: 4px;
+  height: 78px;
+}
+.weui-uploader__input-box:after {
+  width: 78px;
+  height: 4px;
+}
+.weui-uploader__input {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.good-pic {
+  flex-direction: column;
+  // width:100%;
+  padding: 15px 30px;
+  background: #fff;
+  margin: 10px 20px;
+  font-size: 28rpx;
+}
+.good-pic > text {
+  font-size: 28px;
+  color: #999;
+}
+.addstand {
+  margin-top: 10px;
+  // background:#fff;
+  padding: 0 20rpx;
+}
+.addstand > image {
+  width: 50px;
+  height: 50px;
+}
+.addstand text {
+  font-size: 30px;
+  color: #343c49;
+  // margin-left:20px;
+}
+.order-pic {
+  color: #c3c3c3;
+  font-size: 28rpx;
+  margin-left: 10rpx;
+}
+.delete {
+  position: absolute;
+  z-index: 2;
+  right: 4px;
+  top: 4px;
+  font-size: 34px;
+  color: #888;
+}

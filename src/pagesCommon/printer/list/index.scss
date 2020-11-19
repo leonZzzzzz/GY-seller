@@ -1,0 +1,110 @@
+.printerlist {
+  background: #fff;
+  color: #333;
+}
+
+.form-box{
+  padding-bottom: 30px;
+  .at-input__title {
+    font-size: 28px;
+  }
+  .at-input input {
+    font-size: 28px;
+    color: #666;
+  }
+  .form-box-row{
+    display: flex;
+    padding: 24px 30px;
+    font-size: 28px;
+    color: #666;
+    .label{
+      width: 172px;
+      margin-right: 20px;
+      color: #333;
+    }
+    border-bottom: 1px solid #f6f6f6;
+  }
+}
+
+.form-box-title{
+  padding: 20px 30px;
+  background: #f6f6f6;
+}
+
+.form-btns{
+  margin-top: 24px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+.form-btn{
+  display: inline-block;
+  margin-left: 20px;
+  width: 170px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 28px;
+  text-align: center;
+  color: #fff;
+  background: #1bbc3d;
+  border-radius: 10px;
+}
+
+.form-dialog{
+  position: relative;
+  width: 650px;
+  min-height: 150px;
+  background: #fff;
+  border-radius: 16px;
+  padding-bottom: 30px;
+  .close-icon{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 44px;
+    color: #999;
+  }
+  .form-header{
+    position: relative;
+    padding: 30px 30px;
+    font-size: 36px;
+    text-align: center;
+  }
+  .form-body{
+    border: 2px solid #eee;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    font-size: 28px;
+    color: #666;
+    max-height: 600px;
+    overflow: auto;
+    .at-input__title {
+      font-size: 28px;
+    }
+    .at-input input {
+      font-size: 28px;
+    }
+    .radio-wrap{
+      padding: 0 30px;
+      padding-bottom: 30px;
+      .radio-title{
+        padding: 20px 0;
+        font-size: 28px;
+        color: #333;
+      }
+      .radio-box{
+        display: flex;
+        justify-content: space-between;
+        .radio-group{
+          display: flex;
+          justify-content: space-between;
+        }
+        .radio{
+          font-size: 28px;
+          margin-left: 50px;
+        }
+      }
+    }
+  }
+  
+}

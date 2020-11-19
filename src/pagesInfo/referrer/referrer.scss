@@ -1,0 +1,50 @@
+image{
+  width:100%;
+height:100%;
+position:absolute;
+top:0;
+}
+.btn{
+  background:#F78926;
+  color:#fff;
+  font-size:26rpx;
+  border-radius: 10rpx;
+  width:600rpx;
+  padding:20rpx;
+  text-align: center;
+  margin:0 auto;
+}
+.rule{
+  padding:30rpx 50rpx;;
+  position:absolute;
+  bottom:50rpx;
+  color:#007519;
+}
+.rule-a{
+  font-size:32rpx;
+  font-weight:bold;
+  text-align: center;
+  margin:30rpx;
+}
+.rule-b{
+  font-size:26rpx;
+  margin-bottom:50rpx;
+}
+.rule-b>view{
+  margin-bottom:15rpx;
+  line-height: 40rpx;
+}
+.title-money{
+  position: absolute;
+top: 270rpx;
+display: flex;
+width: 100%;
+justify-content: center;
+color: #fff;
+font-size: 42rpx;
+}
+.wait{
+  font-size:46rpx !important;
+  font-weight:bold !important;
+  color:#F78926 !important;
+}

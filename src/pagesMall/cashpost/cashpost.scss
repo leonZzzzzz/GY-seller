@@ -1,0 +1,52 @@
+.amount{
+  background:#fff;
+  text-align: center;
+  padding:30rpx;
+}
+.amount-a{
+  color:#999;
+  font-size:24rpx;
+}
+.amount-b{
+  color:#1BBC3D;
+  font-size:60rpx;
+  font-weight:bold;
+  margin:30rpx;
+}
+.amount-d{
+  margin:30rpx;
+}
+.amount-d>text{
+  color:#1BBC3D;
+  border:1px solid #1BBC3D;
+  padding:5rpx 20rpx;
+  width:200rpx;
+  text-align: center;
+  font-size:24rpx;
+}
+.amount-c{
+  margin-top:50rpx;
+  font-size:28rpx;
+  margin-bottom:20rpx;
+}
+.amount-c>text{
+  padding:10rpx 20rpx;
+  border:1px solid #1BBC3D;
+  color:#1BBC3D;
+}
+.btn{
+  background:#1BBC3D;
+  color:#fff;
+  font-size:26rpx;
+  width:650rpx;
+  text-align: center;
+  margin:0 auto;
+  padding:20rpx;
+  margin-top:50rpx;
+  border-radius: 10rpx;
+}
+.tips{
+  padding:20rpx;
+  font-size:24rpx;
+  color:#85888E;
+}

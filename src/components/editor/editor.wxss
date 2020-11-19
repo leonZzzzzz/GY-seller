@@ -1,0 +1,44 @@
+
+@import "iconfont.wxss";
+
+.toolbar {
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ECECEC;
+  border-left: none;
+  border-right: none;
+}
+
+.container {
+  width: 100%;
+}
+
+.ql-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-size: 32px;
+  line-height: 1.5;
+  overflow: auto;
+  padding: 20px 20px 40px 20px;
+ /* border: 1px solid #ECECEC;*/
+}
+
+.ql-active {
+  color: #22C704;
+}
+
+.iconfont {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  font-size: 40px;
+}
+
+

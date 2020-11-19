@@ -1,0 +1,49 @@
+page{
+    background:#fff;
+}
+.wxlogin{
+background-color:#1BBC3D;
+width:70%;
+font-size:30rpx;
+color:#fff;
+margin:0 auto;
+padding:20rpx;
+text-align: center;
+border-radius: 10rpx;
+}
+.phonelogin{
+    color:#1BBC3D;
+    background-color:#fff;
+    width:70%;
+    font-size:30rpx;
+    border:1px solid #1BBC3D;
+    margin:0 auto;
+    margin-top:40rpx;
+    padding:20rpx;
+    text-align: center;
+    border-radius: 10rpx;
+}
+.tips{
+    position:fixed;
+    bottom:80rpx;
+    font-sizE:24rpx;
+    color:#8B8D8B;
+    text-align: center;
+    width:100%;
+}
+.logo{
+    text-align: center;
+    margin:100rpx 0;
+}
+.logo>image{
+    width:280rpx;
+    height:300rpx;
+}
+.back{
+    width:100%;
+    height:100%;
+    background:#fff;
+}
+.model>image{
+    width:20rpx;height:20rpx;
+}
